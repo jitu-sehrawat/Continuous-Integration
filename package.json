@@ -1,0 +1,26 @@
+{
+  "name": "ci-github-actions",
+  "version": "1.0.0",
+  "description": "Continuous Integration (CI) has increasingly become a part development workflow at more and more companies. But there are still many developers, both new and experienced, who have never used it even if they have heard of it.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitu-sehrawat/ci-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitu-sehrawat/ci-github-actions/issues"
+  },
+  "homepage": "https://github.com/jitu-sehrawat/ci-github-actions#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
