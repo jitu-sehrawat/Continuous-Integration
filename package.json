@@ -4,6 +4,8 @@
   "description": "Continuous Integration (CI) has increasingly become a part development workflow at more and more companies. But there are still many developers, both new and experienced, who have never used it even if they have heard of it.",
   "main": "index.js",
   "scripts": {
+    "develop": "webpack --mode=development",
+    "build": "webpack --mode=production",
     "lint": "eslint .",
     "test": "jest --watch",
     "ci:test": "jest"
@@ -20,9 +22,14 @@
   },
   "homepage": "https://github.com/jitu-sehrawat/ci-github-actions#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
