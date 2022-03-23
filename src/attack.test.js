@@ -1,4 +1,4 @@
-import attack from "./attack";
+import attack from './attack';
 
 test('should return damage sentence when called corretly', () => {
   const result = attack('orge', 20, false);
